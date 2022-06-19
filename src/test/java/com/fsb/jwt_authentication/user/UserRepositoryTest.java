@@ -32,9 +32,11 @@ public class UserRepositoryTest {
 
     @Test
     public void testAssignRolesToUser(){
+        
+        //roles are inserted directly in the data base
+        
+        
         Integer userId=3;
-
-
         User user=repo.findById(userId).get();
        /* user.addRole(new Role(roleId));
 
